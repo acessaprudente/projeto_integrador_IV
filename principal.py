@@ -234,8 +234,7 @@ class Ui_MainWindow(object):
         Tk().withdraw()
         path = askopenfilename()
         self.all_data = pd.read_csv(path)
-        
-           
+              
         numColumn = self.sb_colunas.value()
         if numColumn == 0:
             numRows = len(self.all_data.index)

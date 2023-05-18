@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 from PyQt5 import QtCore, QtGui, QtWidgets
 from statsmodels.tsa.ar_model import AutoReg
 from PyQt5.QtWidgets import QTableWidgetItem
-from datetime import date, timedelta
+from datetime import date
 from tkinter.filedialog import askopenfilename
 
 class Ui_MainWindow(object):
